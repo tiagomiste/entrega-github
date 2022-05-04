@@ -1,0 +1,214 @@
+body{
+    background-image: url(images/db-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bangers', cursive;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: white;
+    width: 600px;
+    height: 200px;
+    border: solid 5px white;
+    border-radius: 20px;
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .div-info{
+    margin-top: 50px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 109, 255);
+    width: 600px;
+    height: 200px;
+    border: solid 5px white;
+    border-radius: 20px;
+
+}
+
+    
+
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.join-div{
+    display: flex;
+    margin-top: 50px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    height: 200px;
+    border: solid 5px white;
+    border-radius: 20px;
+}
+
+.ch-main{
+    display: grid;
+    grid-template-areas: 'img name'
+    'img goku'
+    'img leader'
+    'img struggle'
+    'img passive'
+    'img passive-text';
+    margin-top: 60px;
+    width: 600px;
+    border: solid 5px white;
+    justify-items: center
+
+
+}
+
+.ch-name-grid{
+    grid-area: name;
+
+}
+
+.ch-grid{
+    grid-area: goku;
+}
+
+.ch-leader-grid{
+    grid-area: leader;
+}
+
+.ch-ln-grid{
+    grid-area: struggle;
+}
+
+.ch-passive-grid{
+    grid-area: passive;
+}
+
+.ch-passive-text-grid{
+    grid-area: passive-text;
+}
+
+.ch-img{
+    grid-area: img;
+    margin-left: 5px;
+}
+
+.ch-main div{
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+h2{
+    color: crimson;
+    background-color: white;
+}
+
+.goku-vegeta{
+
+   
+
+
+
+    margin-top: 20px;
+    border: solid 10px crimson;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+
+    height: max-content;
+    width: max-content;
+    color: white;
+    background-color: grey;
+    border: solid 5px white;
+}
+
+@media screen and (max-width: 1040px){
+    nav{
+        flex-direction: column;
+        margin-top: 50px;
+        width: 300px;
+        height: 310px;
+    }
+    
+    .div-info{
+        margin-top: 50px;
+        width: 300px;
+        height: 310px;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+    body{
+        width: 100%;
+        height: min-content;
+    }
+
+    .join-div{
+        width: 700px;
+    }
+    .event-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .event-div img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .ch-main{
+        
+        width: 300px;
+        background-color: rgb(45, 101, 180);
+        background-position: center;
+    }
+    .ch-img{
+        width: 180px;
+    }
+
+    .goku-vegeta{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 1290px){
+    .join-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: crimson;
+
+        width: 300px;
+        height: max-content;
+    }
+
+
+}
+
